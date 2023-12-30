@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
 
-    Solution solution = new Solution();
+    Solution1 solution = new Solution1();
 
     @Nested
     class ValidArrays {
