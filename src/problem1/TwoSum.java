@@ -3,7 +3,8 @@ package problem1;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TwoSum { //an example solution
+//An example solution
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Set<Integer> seenNumbers = new HashSet<>();
 

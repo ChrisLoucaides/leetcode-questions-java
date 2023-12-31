@@ -2,6 +2,7 @@ package problem3;
 
 import java.util.HashSet;
 
+//An example solution
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> seenCharacters = new HashSet<>();
