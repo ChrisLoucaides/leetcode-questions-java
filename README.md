@@ -10,7 +10,7 @@ There are also unit tests around every problem, as I wanted to practice my TDD, 
 overlooked especially for these types of interview questions.
 
 I've included 'Solution' classes in each problem package where you can write your own solutions if you wish to do so (I
-assume if comes across this, it's  what you'd want to use this repo for). If you want to go a step further though, I'd
+assume if anyone comes across this, it's  what you'd want to use this repo for). If you want to go a step further though, I'd
 recommend setting up something similar to this, so you can also TDD every problem.
 
 I know most if most people had a choice they wouldn't want to solve these kind of questions in a language like Java,
