@@ -27,5 +27,6 @@ Some TDD videos:
 2) [Add Two Numbers](src/problem2/instructions.md)
 3) [Longest Substring Without Repeating Characters](src/problem3/instructions.md)
 4) [Median Of Two Sorted Arrays](src/problem4/instructions.md)
+5) [Longest Palindromic Substring](src/problem5/instructions.md)
 
 More to be added soon...
