@@ -17,6 +17,9 @@ I know most if most people had a choice they wouldn't want to solve these kind o
 and would prefer something like Python or JavaScript which is understandable, but again this was mainly done to practice
 TDD. 
 
+### Note that not all Leetcode Test Cases are included in the unit tests, I would encourage also writing your own unit tests around these solutions!
+
+
 Some TDD videos:
 - https://www.youtube.com/watch?v=ln4WnxX-wrw
 - https://www.youtube.com/watch?v=EZ05e7EMOLM
@@ -29,5 +32,6 @@ Some TDD videos:
 4) [Median Of Two Sorted Arrays](src/problem4/instructions.md)
 5) [Longest Palindromic Substring](src/problem5/instructions.md)
 6) [Zigzag Conversion](src/problem6/instructions.md)
+7) [Reverse Integer](src/problem7/instructions.md)
 
 More to be added soon...

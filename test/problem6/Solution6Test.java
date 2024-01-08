@@ -32,5 +32,4 @@ class Solution6Test {
             assertEquals("A", solution.convert("A", 1));
         }
     }
-
 }
