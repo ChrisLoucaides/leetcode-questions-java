@@ -33,5 +33,6 @@ Some TDD videos:
 5) [Longest Palindromic Substring](src/problem5/instructions.md)
 6) [Zigzag Conversion](src/problem6/instructions.md)
 7) [Reverse Integer](src/problem7/instructions.md)
+8) [String to Integer conversion (atoi)](src/problem8/instructions.md)
 
 More to be added soon...

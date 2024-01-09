@@ -40,5 +40,4 @@ class Solution7Test {
             assertEquals(0, solution.reverse(0));
         }
     }
-
 }
