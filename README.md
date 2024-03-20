@@ -24,6 +24,13 @@ Some TDD videos:
 - https://www.youtube.com/watch?v=ln4WnxX-wrw
 - https://www.youtube.com/watch?v=EZ05e7EMOLM
 
+### Before getting started:
+You may need to mark the `src` as the Sources Root folder - you can do this
+by right-clicking it, selected 'Mark Directory as' -> Sources Root.
+
+Similarly, you may need to do something similar with the `test` directory, marking it 
+as the Test Sources Root.
+
 ### Contents:
 
 1) [TwoSum](src/problem1/instructions.md)
