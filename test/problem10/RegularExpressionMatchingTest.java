@@ -21,7 +21,7 @@ class RegularExpressionMatchingTest {
     class LeetcodeTestCase2 {
         @Test
         void shouldMatchTheEntireString() {
-            assertFalse(regularExpressionMatching.isMatch("aa", "a*"));
+            assertTrue(regularExpressionMatching.isMatch("aa", "a*"));
         }
     }
 
@@ -29,7 +29,7 @@ class RegularExpressionMatchingTest {
     class LeetcodeTestCase3 {
         @Test
         void shouldMatchTheEntireString() {
-            assertFalse(regularExpressionMatching.isMatch("ab", ".*"));
+            assertTrue(regularExpressionMatching.isMatch("ab", ".*"));
         }
     }
 }
