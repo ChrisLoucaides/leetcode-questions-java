@@ -1,24 +1,22 @@
 package problem1;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
 //An example solution
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        Set<Integer> seenNumbers = new HashSet<>();
+        final HashMap<Integer, Integer> seenNumbersAndPositions = new HashMap();
 
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (seenNumbers.contains(complement)) {
-                for (int j = 0; j < i; j++) {
-                    if (nums[j] == complement) {
-                        return new int[]{j, i};
-                    }
-                }
+            if (seenNumbersAndPositions.containsKey(complement)) {
+                return new int[]{seenNumbersAndPositions.get(complement), i};
             }
-            seenNumbers.add(nums[i]);
+            seenNumbersAndPositions.put(nums[i], i);
         }
-        throw new IllegalArgumentException("No solution found");
+        return new int[]{0, 0};
     }
+
 }

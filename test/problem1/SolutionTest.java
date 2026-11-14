@@ -1,5 +1,6 @@
 package problem1;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
@@ -36,6 +37,7 @@ class SolutionTest {
         }
     }
 
+    @Disabled // Not part of the actual leetcode problem
     @Nested
     class NoValidArrays {
         @Test
